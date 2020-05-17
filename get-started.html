@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>get started html</title>
+</head>
+
+<body>
+    <section class="top-nav-bar-section">
+        <h2 class="top-nav-bar-title">Fly Away</h2>
+        <nav class="top-nav-bar-nav">
+            <ul class="top-nav-bar-ul">
+                <a class="top-nav-bar-anchor" href="home-page.html">
+                    <li class="top-nav-bar-li">Home</li>
+                </a>
+                <a class="top-nav-bar-anchor" href="./destinations/hawaii.html">
+                    <li class="top-nav-bar-li">Hawaii</li>
+                </a>
+                <a class="top-nav-bar-anchor" href="./destinations/iceland.html">
+                    <li class="top-nav-bar-li">Iceland</li>
+                </a>
+                <a class="top-nav-bar-anchor" href="./destinations/greece.html">
+                    <li class="top-nav-bar-li">Greece</li>
+                </a>
+            </ul>
+        </nav>
+    </section>
+    <section class="get-started-section">
+        <div>
+            <form action="/action_page.php">
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+                <div>
+                    <label for="country">Destination:</label>
+                    <select id="country" name="country">
+                        <option value="hawaii">Hawaii</option>
+                        <option value="iceland">Iceland</option>
+                        <option value="greece">Greece</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="party-size">Party Size:</label>
+                    <input type="number" value="2" id="party-size" name="party-size" min="1" max="12" required>
+                </div>
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" value="2020-02-22" min="2020-02-22" max="2021-02-22" required>
+                </div>
+                    <input type="submit" class="button" name="book tickets" value="Book my vacation">
+            </form>
+        </div>
+    </section>
+    <!-- <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis laboriosam fugiat! Mollitia
+        asperiores iure cumque corporis necessitatibus aliquid illum debitis officia, reprehenderit nesciunt natus
+        repellat, enim eaque suscipit quas.
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis laboriosam fugiat! Mollitia
+        asperiores
+        iure cumque corporis necessitatibus aliquid illum debitis officia, reprehenderit nesciunt natus repellat, enim
+        eaque
+        suscipit quas.
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis laboriosam fugiat! Mollitia
+        asperiores
+        iure cumque corporis necessitatibus aliquid illum debitis officia, reprehenderit nesciunt natus repellat, enim
+        eaque
+        suscipit quas.
+    </p> -->
+</body>
+
+</html>
